@@ -29,7 +29,7 @@ a:hover {
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: var(--primary-2);
+  color: var(--secondary-2);
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: var(--primary-1);
   padding: 20px 25px;
@@ -38,7 +38,7 @@ a:hover {
 
 .btn-secondary:hover{
   background-color: var(--secondary-3);
-  color: var(--secondary-2);
+  color: var(--primary-2);
 }
 
 /* CARD */
