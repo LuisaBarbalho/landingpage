@@ -1,0 +1,13 @@
+{
+    "name": "landingpage",
+    "version": "1.0.0",
+    "description": "Landing Page SEBRAE 3",
+    "main": "index.js",
+    "homepage": "https://LuisaBarbalho.github.io/landingpage",
+    "scripts": {
+        "deploy": "gh-pages -d -dist"
+    },
+    "author": "Luisa Barbalho",
+    "license": "MIT",
+  }
+  
