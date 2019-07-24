@@ -74,6 +74,7 @@ main{
     padding-top: 20px;
 }
 .icon{
+    font-size: 30px;
     color: var(--primary-1);
     margin-bottom: 16px;
 }
@@ -88,4 +89,12 @@ main{
 /* LEAD? */
 .lead{
     margin-top: 40px;
+}
+
+#img-logo{
+  margin: 30px 0px;
+}
+
+#cover-text{
+  font-size: 18px;
 }
