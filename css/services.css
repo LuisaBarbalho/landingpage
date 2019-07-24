@@ -17,6 +17,30 @@ p{
   max-width: 700px;
 }
 
+/* BUTTON */
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: var(--secondary-2);
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: var(--primary-2);
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: var(--primary-1);
+  padding: 20px 25px;
+  border: .05rem solid var(--secondary-2);
+}
+
+.btn-secondary:hover{
+  background-color: var(--secondary-3);
+  color: var(--secondary-2);
+}
+
 /* CARD */
 .card-header.card-basic{
     background-color: #fff;
