@@ -6,19 +6,14 @@
 
 }
 
-html {
-    font-size: 14px;
-  }
 body {
-    height: 100%;
-    color: var(--secondary-1);
-  }
+  color: var(--secondary-1);
+}
 
-  @media (min-width: 768px) {
-    html {
-      font-size: 16px;
+
+    .cover-container {
+      max-width: 70em !important;
     }
-  }
 
 .container-who{
     margin: 40px 0px;

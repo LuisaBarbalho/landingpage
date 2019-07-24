@@ -6,17 +6,11 @@
     --secondary-2: #8EAEBD; 
 
 }
-html {
-  font-size: 14px;
-}
+
 body {
     color: var(--secondary-1);
 }
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
+
 
 .container {
   max-width: 960px;
