@@ -58,8 +58,11 @@
         }
     </style>
     <!-- Custom styles for this template -->
+    <link href="./css/colors.css" rel="stylesheet">
     <link href="./css/who.css" rel="stylesheet">
     <link href="./css/header.css" rel="stylesheet">
+    <link href="./css/footer.css" rel="stylesheet">
+
 
 </head>
 
@@ -81,17 +84,31 @@
         <div class="container-who">
             <h1 class="display-4" id="title">Quem Somos</h1>
             <div class="content row">
-                <div class="col-md-7"><img src="./assets/images/team.jpg"></div>
+                <div class="col-md-7"><img id="img-team" src="./assets/images/team.jpg"></div>
                 <div class="col-md-5">
                     <p>Somos uma startup que quer facilitar o processo burocrático da compra e venda de imóveis no Recife. Nosso objetivo é otimizar o tempo que o usuário passa para conseguir as certidões online, por meio da automatização dos dados e organizar as informações desse processo.</p>
                 </div>
             </div>
         </div>
 
-        <footer class="mastfoot mt-auto">
-            <div class="inner">
-                <p>Cover template for test <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-            </div>
+        <footer class="pt-4 my-md-5 pt-md-5 border-top text-center">
+                <div class="row">
+                    <div class="col-md-6 text-left border-right">
+                        <h6><img width="10%" class="mb-2 img-footer" src="./assets/images/logo_exemplo.png" alt="Marca"> Agência de Documentos Ágeis</h6>
+                        <small class="d-block mb-3 text-muted">&copy; 2019</small>
+                    </div>
+                    <div class="col-md-6">
+                        <p id="text-footer">Colaboradores</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="https://www.cesar.school/" target="_blank"><img src="./assets/images/cesar-logo.png" alt="CESAR Shool" width="80px" class="img-footer"></a>
+                            </div>
+                            <div class="col-md-6">
+                                    <a href="http://www.sebrae.com.br/sites/PortalSebrae" target="_blank"><img src="./assets/images/sebrae-logo.png" alt="SEBRAE" width="80px" class="img-footer"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </footer>
     </div>
 </body>

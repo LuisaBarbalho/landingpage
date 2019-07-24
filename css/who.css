@@ -1,13 +1,7 @@
-:root {
-    --primary-1: #CF6766; 
-    --primary-2: #031424; 
-    --secondary-1: #30415D; 
-    --secondary-2: #8EAEBD; 
-
-}
-
 body {
   color: var(--secondary-1);
+  height: 100%;
+    background-color: var(--secondary-2);
 }
 
 
@@ -24,7 +18,7 @@ body {
     padding-bottom: 24px;
 }
 
-img{
+#img-team{
     height: 100%;
     width: 100%;
 }

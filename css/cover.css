@@ -3,13 +3,6 @@
  */
 
 /* COLORS */
-:root {
-    --primary-1: #CF6766; 
-    --primary-2: #031424; 
-    --secondary-1: #30415D; 
-    --secondary-2: #8EAEBD; 
-
-}
   
 
 /* Links */
@@ -25,10 +18,14 @@ a:hover {
 .btn-secondary:focus {
   color: var(--primary-2);
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: var(--primary-1);
+  background-color: var(--secondary-1);
   border: .05rem solid var(--secondary-2);
 }
 
+.btn-secondary:hover{
+  background-color: var(--secondary-2);
+  color: var(--secondary-3);
+}
 
 /*
  * Base structure
